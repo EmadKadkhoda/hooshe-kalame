@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اینفوگرافیک هوش کلامی: سوپرپاور پنهان شما</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .flowchart-step {
+            border-color: #FC913A;
+            background-color: #fef3c7;
+        }
+        .flowchart-arrow {
+            color: #FC913A;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #FF4E50, #FC913A, #F9D423);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center my-12">
+            <h1 class="text-4xl md:text-6xl font-black mb-4 gradient-text">🧠 هوش کلامی: سوپرپاور پنهان شما! 🚀</h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                تا حالا شده وسط یک مکالمه مهم، کلمات از ذهنت فرار کنن؟ هوش کلامی یک مهارت اکتسابیه. با تمرین، می‌تونی کلمات رو رام کنی و ازشون یه ارتش قدرتمند بسازی!
+            </p>
+        </header>
+
+        <section id="what-is-it" class="my-16 p-8 bg-white rounded-2xl shadow-lg">
+            <h2 class="text-3xl font-bold text-center mb-8">🧐 هوش کلامی چیه اصلا؟</h2>
+            <p class="text-gray-600 text-center mb-8">
+                هوش کلامی، آن سوپرپاور پنهانی است که به شما کمک می‌کند تا کلمات را بشناسید و درست انتخاب کنید، با آن‌ها بازی کنید و از آن‌ها لذت ببرید، و فکرتان را منظم کرده و به زبان بیاورید. این مهارت به شما کمک می‌کند تا ساده، شفاف و مؤثر حرف بزنید.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-6 bg-orange-50 rounded-xl">
+                    <p class="text-5xl mb-4">👗</p>
+                    <h3 class="text-xl font-bold mb-2">انتخاب درست کلمات</h3>
+                    <p class="text-gray-600">یاد می‌گیرید برای هر موقعیتی، مناسب‌ترین کلمه را از کمد ذهنتان انتخاب کنید.</p>
+                </div>
+                <div class="p-6 bg-yellow-50 rounded-xl">
+                    <p class="text-5xl mb-4">🎭</p>
+                    <h3 class="text-xl font-bold mb-2">بازی با کلمات</h3>
+                    <p class="text-gray-600">می‌توانید داستان بگویید، شوخی کنید، متقاعد کنید و مسائل پیچیده را ساده توضیح دهید.</p>
+                </div>
+                <div class="p-6 bg-red-50 rounded-xl">
+                    <p class="text-5xl mb-4">🧱</p>
+                    <h3 class="text-xl font-bold mb-2">نظم دادن به افکار</h3>
+                    <p class="text-gray-600">دیوار نامرئی بین فکر و زبانتان را برمی‌دارد و افکارتان را شفاف بیان می‌کنید.</p>
+                </div>
+            </div>
+            <div class="mt-12 p-6 bg-gray-100 rounded-xl text-center">
+                <h3 class="font-bold text-xl mb-2">🤫 یک راز کوچک: قدرت سکوت طلایی!</h3>
+                <p>به جای استفاده از "امممم" و "خب" (فیلرها)، یک مکث کوتاه کنید. اینجوری هم باهوش‌تر به نظر می‌آیید، هم به مغزتان فرصت می‌دهید کلمه‌ی مناسب را پیدا کند!</p>
+            </div>
+        </section>
+
+        <section id="benefits" class="my-16">
+            <h2 class="text-3xl font-bold text-center mb-12">✨ هوش کلامی چه کمکی به من می‌کنه؟</h2>
+            <p class="text-gray-600 text-center mb-8">
+                هوش کلامی مانند یک عصای جادویی است که در بسیاری از جنبه‌های زندگی شما معجزه می‌کند. در ادامه به برخی از مهم‌ترین تأثیرات آن می‌پردازیم.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-center">💼 موفقیت در کار و کسب‌وکار</h3>
+                    <p class="text-center text-gray-600 mb-6">این نمودار نشان می‌دهد که چگونه هوش کلامی می‌تواند به ارتقاء مهارت‌های شغلی شما کمک کند و درهای جدیدی از موفقیت را به روی شما بگشاید.</p>
+                    <div class="chart-container">
+                        <canvas id="careerChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-center">❤️ بهبود روابط شخصی</h3>
+                    <p class="text-center text-gray-600 mb-6">با هوش کلامی، می‌توانید احساسات خود را بهتر بیان کنید، تعارضات را حل کنید و روابطی عمیق‌تر و رضایت‌بخش‌تر را تجربه خواهید کرد.</p>
+                    <div class="chart-container">
+                        <canvas id="relationsChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-center">😎 افزایش اعتماد به نفس</h3>
+                    <p class="text-center text-gray-600 mb-6">این نمودار مقایسه‌ای، تأثیر تمرین هوش کلامی بر افزایش اعتماد به نفس را نشان می‌دهد. وقتی می‌دانید چه بگویید و چطور بگویید، خودتان را بیشتر باور می‌کنید.</p>
+                    <div class="chart-container">
+                        <canvas id="confidenceChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-center">📚 یادگیری و آموزش بهتر</h3>
+                     <p class="text-center text-gray-600 mb-6">هوش کلامی به شما کمک می‌کند مفاهیم پیچیده را سریع‌تر درک کرده و توانایی توضیح دادن مطالب را پیدا می‌کنید و می‌توانید معلم خود و دیگران باشید.</p>
+                    <div class="chart-container">
+                        <canvas id="learningChart"></canvas>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="how-to" class="my-16">
+            <h2 class="text-3xl font-bold text-center mb-12">🛠️ راهکارهای عملی برای تقویت هوش کلامی</h2>
+            <p class="text-gray-600 text-center mb-8">
+                حالا که با اهمیت هوش کلامی آشنا شدید، وقت آن است که آستین‌ها را بالا بزنید و با این تمرین‌های عملی، قدرت کلامتان را افزایش دهید.
+            </p>
+            <div class="space-y-10">
+
+                <div class="p-8 bg-white rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">☁️ ۱. ابرکلمات: رگباری از ایده‌ها!</h3>
+                    <p class="text-gray-600 mb-6">یک کلمه (مثلاً <span class="font-bold text-orange-500">"باران"</span>) را انتخاب کنید و هر چیزی که به ذهنتان می‌رسد را بنویسید: حس، معنی، کاربرد، حتی صداش! این کار به آزاد کردن ذهن و افزایش تداعی کلمات کمک می‌کند.</p>
+                    <div class="p-4 bg-gray-100 rounded-lg flex flex-wrap gap-2">
+                        <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full">خیس</span>
+                        <span class="bg-yellow-200 text-yellow-800 px-3 py-1 rounded-full">چتر</span>
+                        <span class="bg-green-200 text-green-800 px-3 py-1 rounded-full">بوی خاک</span>
+                        <span class="bg-red-200 text-red-800 px-3 py-1 rounded-full">زندگی</span>
+                        <span class="bg-purple-200 text-purple-800 px-3 py-1 rounded-full">قطره</span>
+                        <span class="bg-indigo-200 text-indigo-800 px-3 py-1 rounded-full">رعد و برق</span>
+                    </div>
+                </div>
+
+                <div class="p-8 bg-white rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">⛓️ ۲. زنجیره کلمات: وصل کردن نقطه‌ها!</h3>
+                    <p class="text-gray-600 mb-6">کلمه بعدی باید با دو حرف آخر کلمه قبلی شروع شود (مثلاً "کتاب" ➡️ "تابلو"). این تمرین سرعت عمل مغز را در پیدا کردن کلمات و گسترش دایره واژگان فعال افزایش می‌دهد.</p>
+                    <div class="flex items-center justify-center flex-wrap gap-2 text-lg font-bold">
+                        <span class="flowchart-step p-3 rounded-lg border-2">کتاب</span>
+                        <span class="flowchart-arrow text-2xl">⬅️</span>
+                        <span class="flowchart-step p-3 rounded-lg border-2">تابلو</span>
+                        <span class="flowchart-arrow text-2xl">⬅️</span>
+                        <span class="flowchart-step p-3 rounded-lg border-2">لوستر</span>
+                        <span class="flowchart-arrow text-2xl">⬅️</span>
+                        <span class="flowchart-step p-3 rounded-lg border-2">ترانه</span>
+                    </div>
+                </div>
+
+                <div class="p-8 bg-white rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">🪜 ۳. نردبان کلمات: ساختن پل بین بی‌ربط‌ها!</h3>
+                    <p class="text-gray-600 mb-6">بین دو کلمه کاملاً بی‌ربط (مثلاً <span class="font-bold text-orange-500">"ماهی"</span> و <span class="font-bold text-orange-500">"فضاپیما"</span>) با کلمات واسطه یک نردبان بسازید. این تمرین خلاقیت و توانایی ایجاد ارتباط بین مفاهیم را تقویت می‌کند.</p>
+                    <div class="flex flex-col items-center space-y-2">
+                        <div class="font-bold text-xl flowchart-step p-3 rounded-lg border-2 w-40 text-center">ماهی 🐠</div>
+                        <div class="font-bold text-2xl flowchart-arrow">⬇️</div>
+                        <div class="flowchart-step p-3 rounded-lg border-2 w-40 text-center">آب</div>
+                        <div class="font-bold text-2xl flowchart-arrow">⬇️</div>
+                         <div class="flowchart-step p-3 rounded-lg border-2 w-40 text-center">آسمان</div>
+                        <div class="font-bold text-2xl flowchart-arrow">⬇️</div>
+                        <div class="font-bold text-xl flowchart-step p-3 rounded-lg border-2 w-40 text-center">فضاپیما 🚀</div>
+                    </div>
+                </div>
+
+                <div class="p-8 bg-white rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">🧩 ۴. کلمه‌سازی: بازی با حروف!</h3>
+                    <p class="text-gray-600 mb-6">چند حرف تصادفی انتخاب کنید (مثلاً "ا"، "ش"، "ر"، "ی") و با آن‌ها هر کلمه‌ای که می‌توانید بسازید (مثل بازی آمیرزا!). این تمرین سرعت پردازش کلمات را افزایش می‌دهد.</p>
+                    <div class="p-4 bg-gray-100 rounded-lg flex flex-wrap gap-2 justify-center">
+                        <span class="bg-purple-200 text-purple-800 px-3 py-1 rounded-full">ا</span>
+                        <span class="bg-purple-200 text-purple-800 px-3 py-1 rounded-full">ش</span>
+                        <span class="bg-purple-200 text-purple-800 px-3 py-1 rounded-full">ر</span>
+                        <span class="bg-purple-200 text-purple-800 px-3 py-1 rounded-full">ی</span>
+                        <span class="text-gray-600 mx-2">➡️</span>
+                        <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full">شیر</span>
+                        <span class="bg-yellow-200 text-yellow-800 px-3 py-1 rounded-full">ریش</span>
+                        <span class="bg-green-200 text-green-800 px-3 py-1 rounded-full">یار</span>
+                    </div>
+                </div>
+
+                <div class="p-8 bg-white rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">🕵️‍♀️ ۵. واژه‌ربایی: شکار کلمات جذاب!</h3>
+                    <p class="text-gray-600 mb-6">همیشه یک دفترچه کوچک همراهتان باشد. هر وقت در کتاب، فیلم، پادکست یا مکالمه‌ای، یک کلمه یا عبارت جذاب شنیدید، سریع یادداشتش کنید. سپس با آن کلمه، جمله بسازید و حتی یک بند کوتاه بنویسید. این کار دایره لغات فعال شما را غنی‌تر می‌کند.</p>
+                </div>
+
+                <div class="p-8 bg-white rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">� ۶. ۱۰ حیطه کلیدی شغلتان: استاد تمام شوید!</h3>
+                    <p class="text-gray-600 mb-6">ده تا از مهم‌ترین موضوعات یا حیطه‌های کاریتان را لیست کنید. سپس برای هر کدام، تمرین کنید که بتوانید بدون مکث و با جزئیات کامل توضیح دهید. این تمرین به شما کمک می‌کند برای هر موقعیتی آماده باشید و بداهه‌گویی‌های ضعیف را از بین ببرید.</p>
+                </div>
+
+                <div class="p-8 bg-white rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">😂 ۷. خاطره، داستان و جوک: چاشنی کلام!</h3>
+                    <p class="text-gray-600 mb-6">هیچ چیز مثل یک داستان خوب، یک خاطره جذاب یا یک جوک به‌جا، نمی‌تواند مخاطب را با شما همراه کند. تمرین کنید که بتوانید خاطراتتان را با جزئیات جذاب تعریف کنید، داستان‌های کوتاه بسازید و جوک‌ها را با لحن و بیان درست تعریف کنید. این کار کاریزما و جذابیت کلامی شما را افزایش می‌دهد.</p>
+                </div>
+
+                <div class="p-8 bg-white rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">💎 ۸. ظرافت کلامی: انتخاب‌های هوشمندانه!</h3>
+                    <p class="text-gray-600 mb-4">از کلمات "دم دستی" و کلیشه‌ای فرار کنید. مغزتان را وادار کنید به دنبال کلمات دقیق‌تر و تأثیرگذارتر بگردد. به یاد داشته باشید: **عبارت انتهای جمله، قدرت بیشتری دارد!**</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="p-4 bg-red-100 border-r-4 border-red-500 rounded">
+                            <p class="font-bold">ضعیف ❌</p>
+                            <p>"خیلی خرابکاری کردی ولی دوست دارم."</p>
+                        </div>
+                        <div class="p-4 bg-green-100 border-r-4 border-green-500 rounded">
+                            <p class="font-bold">قوی ✅</p>
+                            <p>"دوست دارم ولی خیلی خرابکاری کردی."</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="cta" class="my-16 text-center p-10 bg-gradient-to-r from-orange-400 via-red-400 to-yellow-400 rounded-2xl shadow-2xl text-white">
+            <h2 class="text-3xl font-black mb-4">🌟 همین الان شروع کن!</h2>
+            <p class="text-lg mb-6 max-w-2xl mx-auto">فقط خواندن این مطالب کافی نیست. باید با کلمات زندگی کنید! هر روز یک تمرین کوچک انجام دهید و از قدرت کلماتتان لذت ببرید. این یک سفر بی‌پایان است، نه یک مقصد!</p>
+            <div class="flex justify-center items-center gap-4 text-2xl font-bold flex-wrap">
+                <span class="flex items-center gap-2">🎲 بازی کن</span>
+                <span class="hidden md:inline">•</span>
+                <span class="flex items-center gap-2">✍️ بنویس</span>
+                <span class="hidden md:inline">•</span>
+                <span class="flex items-center gap-2">📖 بخوان</span>
+                <span class="hidden md:inline">•</span>
+                <span class="flex items-center gap-2">🗣️ حرف بزن</span>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center p-4 text-gray-500">
+        <p>طراحی شده بر اساس دوره هوش کلامی</p>
+    </footer>
+
+    <script>
+        const wrapLabel = (label, maxLen = 16) => {
+            if (label.length <= maxLen) return label;
+            const words = label.split(' ');
+            let lines = [];
+            let currentLine = '';
+            words.forEach(word => {
+                if ((currentLine + word).length > maxLen && currentLine !== '') {
+                    lines.push(currentLine.trim());
+                    currentLine = word + ' ';
+                } else {
+                    currentLine += word + ' ';
+                }
+            });
+            lines.push(currentLine.trim());
+            return lines;
+        };
+
+        const defaultTooltip = {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            const item = tooltipItems[0];
+                            let label = item.chart.data.labels[item.dataIndex];
+                            if (Array.isArray(label)) {
+                              return label.join(' ');
+                            } else {
+                              return label;
+                            }
+                        }
+                    }
+                }
+            }
+        };
+
+        const chartColors = {
+            primary: '#FF4E50',
+            secondary: '#FC913A',
+            tertiary: '#F9D423',
+            quaternary: '#EDE574',
+            bgPrimary: 'rgba(255, 78, 80, 0.2)',
+            bgSecondary: 'rgba(252, 145, 58, 0.2)',
+            bgTertiary: 'rgba(249, 212, 35, 0.2)',
+            bgQuaternary: 'rgba(237, 229, 116, 0.2)'
+        };
+
+        new Chart(document.getElementById('careerChart'), {
+            type: 'doughnut',
+            data: {
+                labels: [
+                    wrapLabel('ارائه‌های مؤثر'),
+                    wrapLabel('مذاکرات موفق'),
+                    wrapLabel('شبکه‌سازی قوی'),
+                    wrapLabel('نوشتار شفاف')
+                ],
+                datasets: [{
+                    label: 'موفقیت شغلی',
+                    data: [35, 30, 20, 15],
+                    backgroundColor: [chartColors.primary, chartColors.secondary, chartColors.tertiary, chartColors.quaternary],
+                    borderColor: '#fff',
+                    borderWidth: 4
+                }]
+            },
+            options: { ...defaultTooltip, responsive: true, maintainAspectRatio: false }
+        });
+
+        new Chart(document.getElementById('relationsChart'), {
+            type: 'pie',
+            data: {
+                labels: [
+                    wrapLabel('حل تعارضات'),
+                    wrapLabel('بیان احساسات'),
+                    wrapLabel('گوش دادن فعال'),
+                    wrapLabel('کاهش سوءتفاهم')
+                ],
+                datasets: [{
+                    label: 'بهبود روابط',
+                    data: [30, 28, 22, 20],
+                    backgroundColor: [chartColors.primary, chartColors.secondary, chartColors.tertiary, chartColors.quaternary],
+                    borderColor: '#fff',
+                    borderWidth: 4
+                }]
+            },
+            options: { ...defaultTooltip, responsive: true, maintainAspectRatio: false }
+        });
+        
+        new Chart(document.getElementById('confidenceChart'), {
+            type: 'bar',
+            data: {
+                labels: [
+                    wrapLabel('قبل از تمرین'),
+                    wrapLabel('بعد از تمرین')
+                ],
+                datasets: [{
+                    label: 'افزایش اعتماد به نفس',
+                    data: [40, 85],
+                    backgroundColor: [chartColors.bgPrimary, chartColors.bgSecondary],
+                    borderColor: [chartColors.primary, chartColors.secondary],
+                    borderWidth: 2
+                }]
+            },
+            options: { ...defaultTooltip, responsive: true, maintainAspectRatio: false, indexAxis: 'y', scales: { x: { beginAtZero: true, max: 100 } } }
+        });
+
+        new Chart(document.getElementById('learningChart'), {
+            type: 'radar',
+            data: {
+                labels: [
+                    wrapLabel('درک مطلب'),
+                    wrapLabel('توضیح مفاهیم'),
+                    wrapLabel('خلاصه‌سازی'),
+                    wrapLabel('یادگیری سریع'),
+                    wrapLabel('نقد و تحلیل')
+                ],
+                datasets: [{
+                    label: 'توانایی یادگیری',
+                    data: [70, 85, 75, 80, 90],
+                    fill: true,
+                    backgroundColor: chartColors.bgPrimary,
+                    borderColor: chartColors.primary,
+                    pointBackgroundColor: chartColors.primary,
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: chartColors.primary
+                }]
+            },
+            options: { ...defaultTooltip, responsive: true, maintainAspectRatio: false }
+        });
+
+    </script>
+
+</body>
+</html>
+�
